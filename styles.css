@@ -1,0 +1,29 @@
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f7a4a4;
+}
+
+.new {
+    border: 2px solid rgba(255, 255, 0, 0.5);
+    color: #200c0c;
+}
+
+.in-progress {
+    border: 2px solid blue;
+    color: #200c0c;
+   
+}
+
+.completed {
+    border: 2px solid green;
+    color: #080303;
+ 
+}
+
+.cancelled {
+    border: 2px solid red;
+    color: #141414;
+    
+}
+
