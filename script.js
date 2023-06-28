@@ -6,8 +6,6 @@ function addTask() {
 
     var taskText = taskInput.value.trim();
     
-
-
     if (taskText === "") {
         alert("Por favor, ingrese una tarea válida.");
         return;
@@ -23,15 +21,13 @@ function addTask() {
                               <option value="in-progress">En Desarrollo</option>
                               <option value="completed">Completada</option>
                               <option value="cancelled">Cancelada</option>
-
-                              <option value="#elemento-a-eliminar">Eliminar</option>
-
                           </select>`;
 
     document.getElementById("list").appendChild(listItem);
     taskInput.value = "";
     taskId++;
 }
+
 // NO ME FUNCIONA LA OPCION ELIMINAR y no me cambia infinitas veces los colores, 
 //tampoco me guarda o no se aloja en algun sitio que me quede-----------
 // Función para cambiar el estado de una tarea
